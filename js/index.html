@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="app.js"></script>
+
+
     <script>
-        console.log('iphonestore');
+        console.log('student name');   
 
-        
-
-        var fname= 'Ghazl';
+        var fname= 'Ghazl-BYounis';
 
         console.log('First name: ' + fname );
-        console.log(fname);
 
-        var age= '27'
+        var age= '2'
         console.log(age);
 
-        var isStudent= 'True'
+        var isStudent= true
         console.log(isStudent);
+
+        console.log(fname + ' , ' + age + ' years old, is student ' + isStudent)
+
+        console.log(19+'2'+2019)
 
 
     </script>
@@ -28,12 +32,32 @@
 </head>
 <body>
     <header>
+        <h1>Student Name</h1>
     
     </header>
     <main>
+        <script>
+            document.write(`First name: ${fname}` + '<br>');
+            document.write(`${age}` + '   '+ 'years old'+ '<br>');
+            document.write('Is student' + '  ' + `${isStudent}` + '<br>');
+            document.write(`Birthday: 19/2/2019` )
+        </script>
         
     </main>
     <footer>
+        
+        <script>
+            alert(fname + ' , ' + age + ' years old, is student ' + isStudent)
+        </script>
+
+        <script>
+            if (firstname == 'Rabea'){
+                document.write (`hello`);
+            }else{
+                document.write ( `hello` + ' ' + firstname)
+            }
+
+        </script>
 
 
     </footer>
