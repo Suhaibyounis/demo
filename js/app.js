@@ -15,7 +15,7 @@ console.log(fname + ' , ' + age + ' years old, iphone ' + working)
 
 console.log(19+'2'+2019)
 
-var iphone =  prompt('whats your phone name (iphone or other)?' , 'enter your phone name');
+var iphone =  prompt('whats your phone type (iphone or other)?' , 'enter your phone name');
 console.log(iphone)
 
 if(working == false){
