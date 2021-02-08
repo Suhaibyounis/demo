@@ -2,7 +2,7 @@ console.log('iphonestore');
 
 var fname= 'iphone12';
 
-console.log('First name: ' + fname );
+console.log('mobile type: ' + fname );
 console.log(fname);
 
 var age= '2'
@@ -15,7 +15,7 @@ console.log(fname + ' , ' + age + ' years old, iphone ' + working)
 
 console.log(19+'2'+2019)
 
-var iphone =  prompt('whats your phone type (iphone or other)?' , 'enter your phone name');
+var iphone =  prompt('whats your phone type (iphone or other)?' , 'enter your phone type');
 console.log(iphone)
 
 if(working == false){
