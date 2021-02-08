@@ -1,6 +1,6 @@
-console.log('student name');
+console.log('iphonestore');
 
-var fname= 'Ghazl-BYounis';
+var fname= 'iphone12';
 
 console.log('First name: ' + fname );
 console.log(fname);
@@ -8,22 +8,22 @@ console.log(fname);
 var age= '2'
 console.log(age);
 
- var isStudent= true
- console.log(isStudent);
+ var working= true
+ console.log(working);
 
-console.log(fname + ' , ' + age + ' years old, is student ' + isStudent)
+console.log(fname + ' , ' + age + ' years old, iphone ' + working)
 
 console.log(19+'2'+2019)
 
-var firstname =  prompt('whats your name?' , 'enter your name');
-console.log(firstname)
+var iphone =  prompt('whats your phone name (iphone or other)?' , 'enter your phone name');
+console.log(iphone)
 
-if(isStudent == false){
-    console.log('he is not a student')
+if(working == false){
+    console.log('he do not have iphone')
 } else {
-    console.log ('he is a student')
+    console.log ('he have iphone')
 }
 
-if (firstname == 'Ghazl'){
-    console.log ( 'hello ' + firstname);
+if (iphone == 'iphone'){
+    console.log ( 'hello ' + iphone);
 }
